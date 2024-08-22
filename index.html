@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>بودكاست عشوائيات</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />       
+    </head>
+   <body>
+ 
+
+       <div class="hero">
+           <nav>
+            <img src="img/menu.png" class="menu">
+            <img src="img/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Episodes</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+
+        <div class="lamping">
+            <img src="img/lamp.png" class="lamp">
+            <img src="img/light.png" class="light" id="light">
+
+
+
+        </div>
+       
+        <div>
+            <i><box-icon name='menu-alt-left' animation='tada' ></box-icon></i>
+        </div>
+
+      
+
+
+        
+
+        <div class="setup">
+            <img src="img/4737419.png" class="setup">
+
+
+        </div>
+
+
+       </div>
+
+     <section class="footer">
+         <div class="social">
+             <a href="https://www.instagram.com/3shwaiat.125/"><i class="fab fa-instagram"></i></a>
+             <a href="https://open.spotify.com/show/3LPF2D9yiBwaZjGRTvQLXZ"><i class="fab fa-spotify"></i></a>
+             <a href="https://soundcloud.com/hamzi-jabali"><i class="fab fa-soundcloud"></i></a>
+             <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xYzFjY2VkMC9wb2RjYXN0L3Jzcw=="><i class="fab fa-google"></i></a>
+             <a href="https://podcasts.apple.com/de/podcast/%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA-%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A%D8%A7%D8%AA/id1513437162"><i class="fab fa-apple"></i></a>
+             <a href="https://www.facebook.com/hamzijabali21"><i class="fab fa-facebook"></i></a>
+             <a href="https://www.youtube.com/channel/UCkcleo7uPvAjrp6iBHR89bw"><i class="fab fa-youtube"></i></a>
+
+
+         </div>
+         <p class="copyright">
+            Hamzi Aljabali @2021 
+     </section>
+
+   
+
+       <script>
+           var btn = document.getElementById("btn");
+           var light = document.getElementById("light");
+
+           function toggleBtn(){
+               btn.classList.toggle("active")
+               light.classList.toggle("on")
+           }
+           
+        </script>   
+
+       
+    </body>
+
+  
+
+</html>
